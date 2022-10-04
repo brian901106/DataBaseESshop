@@ -1,0 +1,38 @@
+@font-face {
+  font-family: Gentium;
+  src: url(http://example.com/fonts/Gentium.woff);
+}
+
+
+.menu {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  box-shadow: none;
+  line-height: 20px;
+  height: 60PX;
+  font-family: 'Gentium','Courier New', Courier, monospace;
+  /* background-color: white; */
+}
+
+/* nav-menu */
+.menu-nav {
+  font-size: 100px;
+}
+
+
+
+.menu-item {
+  position: relative;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  color: #1d1f2e;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
