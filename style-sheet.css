@@ -100,10 +100,12 @@
 
 .merchandise-name{
   text-align: center;
+  font-size: 20px;
   font-family: '微軟正黑體','Courier New', Courier, monospace;
 }
 
 .merchandise-price{
   text-align: center;
+  font-size: 18px;
   font-family: 'Gentium','Courier New', Courier, monospace;
 }
