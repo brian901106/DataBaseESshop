@@ -13,21 +13,24 @@
   position: absolute;
   left: 0px;
   right: 0px;
-  top: px;
+  top: 0px;
   box-shadow: none;
-  line-height: 20px;
-  height: 60PX;
+  line-height: 50px;
+  /* 控制上下 */
+  /* height: 40PX; */
   font-family: 'Gentium','Courier New', Courier, monospace;
   text-align: center;
   /* background-color: white; */
 }
 
-/* nav-menu */
+/* 控制nav間距 */
 .menu-nav {
-  font-size: 100px;
+  font-size: 70px;
 }
 
-
+.height-of-menu{
+  height:55px;
+}
 
 .menu-item {
   position: relative;
