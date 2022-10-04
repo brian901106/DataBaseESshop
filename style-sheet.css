@@ -3,12 +3,17 @@
   src: url(http://example.com/fonts/Gentium.woff);
 }
 
+.main-picture {
+  height: 300PX;
+  display:block;
+  margin:auto;
+}
 
 .menu {
   position: absolute;
   left: 0px;
   right: 0px;
-  top: 0px;
+  top: px;
   box-shadow: none;
   line-height: 20px;
   height: 60PX;
