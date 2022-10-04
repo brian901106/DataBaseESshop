@@ -3,6 +3,10 @@
   src: url(http://example.com/fonts/Gentium.woff);
 }
 
+a {
+  text-decoration:none;
+}
+
 .main-picture {
   /* height: 300PX; */
   display:block;
