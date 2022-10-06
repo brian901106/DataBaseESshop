@@ -7,6 +7,10 @@ a {
   text-decoration: none;
 }
 
+body {
+overflow-x: hidden;
+}
+
 .main-picture {
   /* height: 300PX; */
   display: block;
@@ -107,7 +111,7 @@ a {
 .merchandise {
   color: #1d1f2e;
   float: left;
-  padding: 10px 15px;
+  /* padding: 10px 15px; */
   /* background-color: rgba(31, 190, 47, 0.466); */
   /* display: -webkit-box;
   display: -webkit-flex;
@@ -138,4 +142,67 @@ a {
   text-align: center;
   font-size: 18px;
   font-family: 'Gentium', 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+
+
+
+/* 頁尾 */
+
+/* .footer {
+
+  text-align: center;
+  margin-bottom: -50px;
+  margin-left: -50px;
+  margin-right: -50px;
+  background-color: #1d1f2e;
+} */
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+/* ------------------- */
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  line-height: 2rem;
+}
+
+header {
+  text-align: center;
+  padding: 25px;
+}
+
+main {
+  margin: 20px 50px;
+}
+
+footer {
+  height: 20px;
+  text-align: center;
+  background-color: #1d1f2e;
+  color: #FCFAF2;
+  line-height: 20px;
+  font-family: '微軟正黑體', 'Courier New', Courier, monospace;
+  font-size: 10px;
+}
+
+p {
+  margin: 0;
 }
